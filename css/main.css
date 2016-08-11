@@ -147,9 +147,15 @@ footer{
 	font-size: 14px;
 	}
 	.none{
-		display: none;
+	display: none;
 	}
-	.fa-fa
+	.bars{
+	display: block;
+	color: #FFFFFF;	
+	font-size: 3em;
+	float: right;
+	padding: 2% 0%;
+	}
 	.video{
 	padding-bottom: 56.25%;
 	overflow: hidden;
@@ -167,7 +173,14 @@ footer{
 	width: 50%;
 	}
 	.none{
-		display: none;
+	display: none;
+	}
+	.bars{
+	display: block;
+	color: #FFFFFF;	
+	font-size: 3em;
+	float: right;
+	padding: 2% 0%;
 	}
 	.video{
 	padding-bottom: 56.25%;
@@ -185,7 +198,14 @@ footer{
 	width: 50%;
 	}
 	.none{
-		display: none;
+	display: none;
+	}
+	.bars{
+	display: block;
+	color: #FFFFFF;	
+	font-size: 3em;
+	float: right;
+	padding: 2% 0%;
 	}
 	.video{
 	padding-bottom: 56.25%;
@@ -198,13 +218,20 @@ footer{
 
 @media (max-width: 320px){
 	body{
-		font-size: 7px;
+	font-size: 7px;
 	}
 	header img{
 	width: 60%;
 	}
 	.none{
-		display: none;
+	display: none;
+	}
+	.bars{
+	display: block;
+	color: #FFFFFF;	
+	font-size: 3em;
+	float: right;
+	padding: 2% 0%;
 	}
 	.video{
 	padding-bottom: 56.25%;
