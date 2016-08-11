@@ -29,16 +29,16 @@ header img{
 	width: 40%;
 }
 nav{
-	padding-top: 3%;
-	float: right;
+	text-align: right;
+	padding: 4%;
 }
 nav a{
-	padding: 0% 0.2% 0% 0%;
+	padding: 2%;
 }
 .raya{
 	padding: 0% 3%;
 }
-.fa-bars{
+.bars{
 	display: none;
 }
 /*----------SECTION------------*/
@@ -149,6 +149,7 @@ footer{
 	.none{
 		display: none;
 	}
+	.fa-fa
 	.video{
 	padding-bottom: 56.25%;
 	overflow: hidden;
