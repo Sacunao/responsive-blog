@@ -142,6 +142,21 @@ footer{
 	font-size: 16px;
 	}
 }
+@media (max-width: 982px){
+	body{
+	font-size: 14px;
+	}
+	.none{
+	display: none;
+	}
+	.bars{
+	display: block;
+	color: #FFFFFF;	
+	font-size: 3em;
+	float: right;
+	padding: 2% 0%;
+	}
+}
 @media (max-width: 768px){
 	body{
 	font-size: 14px;
