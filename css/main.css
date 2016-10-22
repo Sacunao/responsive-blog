@@ -21,6 +21,13 @@ a:hover{
 	color: #F7BA6A;
 	padding-bottom: 2%;
 }
+
+.d-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 /*----------HEADER------------*/
 header{
 	background-color: #1C1821;
@@ -44,27 +51,27 @@ nav a{
 /*----------SECTION------------*/
 section{
 	background-color: #2D2735;
-	padding: 3% 0%;
+	padding: 0.8em 0px;
+
 }
 .springcame{
 	background-image: url(../image/header-image.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	padding: 10% 20%;
-	margin-bottom: 3%;
+	height: 35em;
+	margin-bottom: 2em;
 }
 .text-head{
 	background-color: #1C1821;
-	padding: 7% 0%;
+	padding: 0px 2em;
+	height: 15em;
 	text-align: center;
 }
 .spring{
 	font-size: 5em;
-	margin-bottom: 1%;
 }
 .date{
 	display: inline-block;
-	margin-bottom: 2%;
 }
 
 /* segunda parte*/
@@ -139,120 +146,196 @@ footer{
 /* Responsive */
 @media (max-width: 1024px){
 	body{
-	font-size: 16px;
+		font-size: 16px;
 	}
 }
 @media (max-width: 982px){
 	body{
-	font-size: 14px;
+		font-size: 14px;
 	}
 	.none{
-	display: none;
+		display: none;
 	}
 	.bars{
-	display: block;
-	color: #FFFFFF;	
-	font-size: 3em;
-	float: right;
-	padding: 2% 0%;
+		display: block;
+		color: #FFFFFF;	
+		font-size: 3em;
+		float: right;
+		padding: 2% 0%;
+	}
+	.springcame{
+		height: 30em;
+	}
+	.text-head{
+		height: 15em;
+	}
+
+	.spring{
+		font-size: 3em;
+	}
+	.date{
+		display: inline-block;
+		font-size: 0.8em;
 	}
 }
 @media (max-width: 768px){
 	body{
-	font-size: 14px;
+		font-size: 14px;
 	}
 	.none{
-	display: none;
+		display: none;
 	}
 	.bars{
-	display: block;
-	color: #FFFFFF;	
-	font-size: 3em;
-	float: right;
-	padding: 2% 0%;
+		display: block;
+		color: #FFFFFF;	
+		font-size: 3em;
+		float: right;
+		padding: 2% 0%;
 	}
-	.video{
-	padding-bottom: 56.25%;
-	overflow: hidden;
+	.springcame{
+		height: 30em;
 	}
-	.video iframe, .video object, .video embed {
-	width: 100%;
+	.text-head{
+		height: 15em;
 	}
+
+	.spring{
+		font-size: 3em;
+	}
+	.date{
+		display: inline-block;
+		font-size: 0.8em;
+	}
+
 }
 
 @media (max-width: 640px){
 	body{
-	font-size: 12px;
+		font-size: 12px;
 	}
 	header img{
-	width: 50%;
+		width: 50%;
 	}
 	.none{
-	display: none;
+		display: none;
+	}
+	.springcame{
+		height: 20em;
+	}
+	.text-head{
+		height: 10em;
+	}
+
+	.spring{
+		font-size: 3em;
+	}
+	.date{
+		display: inline-block;
+		font-size: 0.8em;
+	}
+	.amanda{
+		display: none;
 	}
 	.bars{
-	display: block;
-	color: #FFFFFF;	
-	font-size: 3em;
-	float: right;
-	padding: 2% 0%;
+		display: block;
+		color: #FFFFFF;	
+		font-size: 3em;
+		float: right;
+		padding: 2% 0%;
 	}
 	.video{
-	padding-bottom: 56.25%;
-	overflow: hidden;
+		padding-bottom: 56.25%;
+		overflow: hidden;
 	}
 	.video iframe, .video object, .video embed {
-	width: 100%;
+		width: 100%;
+		height: auto;
 	}
 }
 @media (max-width: 480px){
 	body{
-	font-size: 10px;
+		font-size: 10px;
 	}
 	header img{
-	width: 50%;
+		width: 50%;
 	}
 	.none{
-	display: none;
+		display: none;
+	}
+	.springcame{
+		height: 20em;
+	}
+	.text-head{
+		height: 10em;
+	}
+
+	.spring{
+		font-size: 3em;
+	}
+	.date{
+		display: inline-block;
+		font-size: 0.8em;
+	}
+	.amanda{
+		display: none;
 	}
 	.bars{
-	display: block;
-	color: #FFFFFF;	
-	font-size: 3em;
-	float: right;
-	padding: 2% 0%;
+		display: block;
+		color: #FFFFFF;	
+		font-size: 3em;
+		float: right;
+		padding: 2% 0%;
 	}
 	.video{
-	padding-bottom: 56.25%;
-	overflow: hidden;
+		padding-bottom: 56.25%;
+		overflow: hidden;
 	}
 	.video iframe, .video object, .video embed {
-	width: 100%;
+		width: 100%;
+		height: auto;
 	}
 } 
 
 @media (max-width: 320px){
 	body{
-	font-size: 7px;
+		font-size: 7px;
 	}
 	header img{
-	width: 60%;
+		width: 60%;
 	}
 	.none{
-	display: none;
+		display: none;
+	}
+	.springcame{
+		height: 20em;
+	}
+	.text-head{
+		height: 10em;
+	}
+
+	.spring{
+		font-size: 3em;
+	}
+	.date{
+		display: inline-block;
+		font-size: 0.8em;
+	}
+	.amanda{
+		display: none;
 	}
 	.bars{
-	display: block;
-	color: #FFFFFF;	
-	font-size: 3em;
-	float: right;
-	padding: 2% 0%;
+		display: block;
+		color: #FFFFFF;	
+		font-size: 3em;
+		float: right;
+		padding: 2% 0%;
 	}
 	.video{
-	padding-bottom: 56.25%;
-	overflow: hidden;
+		padding-bottom: 56.25%;
+		overflow: hidden;
 	}
 	.video iframe, .video object, .video embed {
-	width: 100%;
+		width: 100%;
+		height: auto;
 	}
 }
